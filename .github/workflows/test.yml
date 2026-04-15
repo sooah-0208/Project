@@ -10,5 +10,9 @@ jobs:
     runs-on: self-hosted
     steps:
       # - uses: actions/checkout@v 이것도 깃허브 내에서 돌아갈 때
-      - name: Check PowerShell
-        run: $PSVersionTable
+      # - name: Check PowerShell
+      #   run: $PSVersionTable
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        # with:
+        #   path:
