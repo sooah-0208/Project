@@ -21,3 +21,6 @@ jobs:
       - name: npm install
         working-directory: ./frontend
         run: npm i
+
+      - name: npm run
+        run: npm run dev
